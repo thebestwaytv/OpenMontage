@@ -1,4 +1,5 @@
 import { Composition, CalculateMetadataFunction } from "remotion";
+import { MusicVideo911, MUSIC_VIDEO_TOTAL_FRAMES } from "./MusicVideo911";
 import { Explainer, ExplainerProps } from "./Explainer";
 import {
   CinematicRenderer,
@@ -281,6 +282,15 @@ export const Root: React.FC = () => {
           holdSeconds: 4.3,
           fadeOutSeconds: 0.6,
         } as EndTagProps}
+      />
+      <Composition
+        id="MusicVideo911"
+        component={MusicVideo911}
+        durationInFrames={MUSIC_VIDEO_TOTAL_FRAMES}
+        fps={24}
+        width={1920}
+        height={1080}
+        defaultProps={{}}
       />
       <Composition
         id="EndTagOverlay"

@@ -1,0 +1,155 @@
+{
+  "scenes": [
+    {
+      "id": "intro-title",
+      "kind": "title",
+      "startSeconds": 0,
+      "durationSeconds": 4,
+      "text": "9 . 11",
+      "accent": "#C8A97E",
+      "intensity": 0.7
+    },
+    {
+      "id": "scene-01",
+      "kind": "video",
+      "startSeconds": 4,
+      "durationSeconds": 20,
+      "src": "911/frame_01.jpg",
+      "tone": "steel",
+      "filter": "contrast(1.08) saturate(0.82) brightness(0.88)",
+      "fadeInFrames": 30,
+      "fadeOutFrames": 20
+    },
+    {
+      "id": "scene-02",
+      "kind": "video",
+      "startSeconds": 24,
+      "durationSeconds": 18,
+      "src": "911/frame_02.jpg",
+      "tone": "neutral",
+      "filter": "contrast(1.1) saturate(0.78) brightness(0.9)",
+      "fadeInFrames": 25,
+      "fadeOutFrames": 20
+    },
+    {
+      "id": "date-title",
+      "kind": "title",
+      "startSeconds": 42,
+      "durationSeconds": 4,
+      "text": "11 . 9",
+      "accent": "#C8A97E",
+      "intensity": 0.7
+    },
+    {
+      "id": "scene-03",
+      "kind": "video",
+      "startSeconds": 46,
+      "durationSeconds": 22,
+      "src": "911/frame_03.jpg",
+      "tone": "cold",
+      "filter": "contrast(1.06) saturate(0.85) brightness(0.86)",
+      "fadeInFrames": 25,
+      "fadeOutFrames": 20
+    },
+    {
+      "id": "scene-04",
+      "kind": "video",
+      "startSeconds": 68,
+      "durationSeconds": 20,
+      "src": "911/frame_04.jpg",
+      "tone": "cold",
+      "filter": "contrast(1.04) saturate(0.9) brightness(0.88)",
+      "fadeInFrames": 20,
+      "fadeOutFrames": 20
+    },
+    {
+      "id": "scene-00-art",
+      "kind": "video",
+      "startSeconds": 88,
+      "durationSeconds": 18,
+      "src": "911/frame_00_song_art.jpg",
+      "tone": "void",
+      "filter": "contrast(1.12) saturate(0.75) brightness(0.82)",
+      "fadeInFrames": 20,
+      "fadeOutFrames": 20
+    },
+    {
+      "id": "scene-05",
+      "kind": "video",
+      "startSeconds": 106,
+      "durationSeconds": 18,
+      "src": "911/frame_05.jpg",
+      "tone": "neutral",
+      "filter": "contrast(1.08) saturate(0.8) brightness(0.9)",
+      "fadeInFrames": 20,
+      "fadeOutFrames": 20
+    },
+    {
+      "id": "scene-06",
+      "kind": "video",
+      "startSeconds": 124,
+      "durationSeconds": 20,
+      "src": "911/frame_06.jpg",
+      "tone": "cold",
+      "filter": "contrast(1.05) saturate(0.88) brightness(0.9)",
+      "fadeInFrames": 20,
+      "fadeOutFrames": 20
+    },
+    {
+      "id": "scene-07",
+      "kind": "video",
+      "startSeconds": 144,
+      "durationSeconds": 20,
+      "src": "911/frame_07.jpg",
+      "tone": "neutral",
+      "filter": "contrast(1.04) saturate(0.92) brightness(0.92)",
+      "fadeInFrames": 20,
+      "fadeOutFrames": 20
+    },
+    {
+      "id": "scene-08",
+      "kind": "video",
+      "startSeconds": 164,
+      "durationSeconds": 18,
+      "src": "911/frame_08.jpg",
+      "tone": "void",
+      "filter": "contrast(1.1) saturate(0.76) brightness(0.85)",
+      "fadeInFrames": 20,
+      "fadeOutFrames": 20
+    },
+    {
+      "id": "scene-09",
+      "kind": "video",
+      "startSeconds": 182,
+      "durationSeconds": 12,
+      "src": "911/frame_09.jpg",
+      "tone": "void",
+      "filter": "contrast(1.08) saturate(0.78) brightness(0.88)",
+      "fadeInFrames": 15,
+      "fadeOutFrames": 18
+    },
+    {
+      "id": "scene-10",
+      "kind": "video",
+      "startSeconds": 188,
+      "durationSeconds": 6,
+      "src": "911/frame_10.jpg",
+      "tone": "neutral",
+      "filter": "contrast(1.06) saturate(0.84) brightness(0.9)",
+      "fadeInFrames": 15,
+      "fadeOutFrames": 10
+    },
+    {
+      "id": "end-title",
+      "kind": "title",
+      "startSeconds": 194,
+      "durationSeconds": 6.8,
+      "text": "RORY WILL",
+      "accent": "#C8A97E",
+      "intensity": 1.2
+    }
+  ],
+  "titleFontSize": 120,
+  "titleWidth": 1200,
+  "signalLineCount": 6
+}
